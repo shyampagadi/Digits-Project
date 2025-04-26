@@ -1,8 +1,10 @@
 *.pyc
 __pycache__/
-data/
-models/
+data/*.pkl
+models/*.pth
 mlruns/
 .dvc/cache/
 venv/
 *.ipynb_checkpoints/
+outputs/
+dvc_storage/

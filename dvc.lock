@@ -14,7 +14,7 @@ stages:
     outs:
     - path: data/digits_subset.pkl
       hash: md5
-      md5: f9f36edba85d6ea794ed4d44d33e634d
+      md5: 804a704f2be9a64334cf08638b4b38bb
       size: 48573
   train:
     cmd: python src/train.py
@@ -25,7 +25,7 @@ stages:
       size: 301
     - path: data/digits_subset.pkl
       hash: md5
-      md5: f9f36edba85d6ea794ed4d44d33e634d
+      md5: 804a704f2be9a64334cf08638b4b38bb
       size: 48573
     - path: src/model.py
       hash: md5

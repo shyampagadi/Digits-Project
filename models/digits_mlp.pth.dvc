@@ -1,5 +1,0 @@
-outs:
-- md5: 4a692ded9eafa3b7fc5d994b2af3b16e
-  size: 12155
-  hash: md5
-  path: digits_mlp.pth

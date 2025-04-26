@@ -20,4 +20,5 @@ jinja2
 imblearn
 torch
 hydra-core==1.3.2
+dvc
 -e .
