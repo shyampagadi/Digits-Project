@@ -1,0 +1,14 @@
+dataset:
+  name: digits
+  train_size: 0.05
+  test_size: 0.05
+  random_state: 42
+  data_path: data/digits_subset.pkl
+model:
+  hidden_units: 32
+  num_classes: 10
+  model_path: models/digits_mlp.pth
+training:
+  epochs: 2
+  learning_rate: 0.01
+  batch_size: 32
